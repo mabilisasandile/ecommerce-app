@@ -191,7 +191,8 @@ export const assets =()=> {
     paypal_logo,
     menu_icon,
     about_img,
-    contact_img
+    contact_img,
+    profile_icon
 }
 
 export const products = [

@@ -28,6 +28,10 @@ const Navbar = () => {
         </NavLink>
 
       </ul>
+
+      <div c>
+
+      </div>
     </div>
   )
 }
