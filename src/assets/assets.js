@@ -175,6 +175,8 @@ import cross_icon from './cross_icon.png'
 import stripe_logo from './stripe_logo.png'
 import paypal_logo from './paypal_logo.png'
 import dropdown_icon from './dropdown_icon.png'
+import hero_img from './hero_img.jpeg'
+
 
 export const assets = {
     logo,
@@ -193,7 +195,8 @@ export const assets = {
     about_img,
     contact_img,
     profile_icon,
-    dropdown_icon
+    dropdown_icon,
+    hero_img
 }
 
 export const products = [
