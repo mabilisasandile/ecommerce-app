@@ -176,6 +176,7 @@ import stripe_logo from './stripe_logo.png'
 import paypal_logo from './paypal_logo.png'
 import dropdown_icon from './dropdown_icon.png'
 import hero_img from './hero_img.jpeg'
+import exchange_icon from './exchange_icon.png'
 
 
 export const assets = {
@@ -196,10 +197,107 @@ export const assets = {
     contact_img,
     profile_icon,
     dropdown_icon,
-    hero_img
+    hero_img,
+    exchange_icon
 }
 
 export const products = [
+    {
+        _id: "402",
+        name: "Mesh Bodycon Dress",
+        description: "Mesh Bodycon Dress",
+        price: 160,
+        image: [img_womanC1, img_womanC2, img_womanC3],
+        category: "Woman",
+        subCategory: "Dresses",
+        sizes: ["S", "M", "L", "XL"],
+        date: 1716634345448,
+        bestseller: false
+    },
+    {
+        _id: "403",
+        name: "Fit and Flare Dress",
+        description: "Fit and Flare Dress",
+        price: 190,
+        image: [img_womanD1, img_womanD2, img_womanD3],
+        category: "Woman",
+        subCategory: "Dresses",
+        sizes: ["S", "M", "L", "XL"],
+        date: 1716634345448,
+        bestseller: false
+    },
+    {
+        _id: "404",
+        name: "Fit and Flare Dress",
+        description: "Fit and Flare Dress",
+        price: 200,
+        image: [img_womanE1, img_womanE2, img_womanE3],
+        category: "Woman",
+        subCategory: "Dresses",
+        sizes: ["S", "M", "L", "XL"],
+        date: 1716634345448,
+        bestseller: true
+    },
+    {
+        _id: "405",
+        name: "Boxy Shirt and Short",
+        description: "Boxy Shirt and Short",
+        price: 300,
+        image: [img_womanF1, img_womanF2, img_womanF3],
+        category: "Woman",
+        subCategory: "Sets",
+        sizes: ["S", "M", "L", "XL"],
+        date: 1716634345448,
+        bestseller: true
+    },
+    {
+        _id: "301",
+        name: "Statement T-Shirt",
+        description: "Statement T-Shirt",
+        price: 120,
+        image: [img_manB1, img_manB2, img_manB3],
+        category: "Man",
+        subCategory: "Tops",
+        sizes: ["Small", "Medium", "Large"],
+        date: 1716634345448,
+        bestseller: false
+    },
+    {
+        _id: "302",
+        name: "Stadium T-Shirt",
+        description: "Stadium T-Shirt",
+        price: 160,
+        image: [img_manC1, img_manC2, img_manC3],
+        category: "Man",
+        subCategory: "Tops",
+        sizes: ["Small", "Medium", "Large"],
+        date: 1716634345448,
+        bestseller: true
+    },
+    {
+        _id: "204",
+        name: "Floral Midi Skirt",
+        description: "Floral Midi Skirt",
+        price: 100,
+        image: [img_girlE1, img_girlE2, img_girlE3],
+        category: "Girl",
+        subCategory: "Skirts",
+        sizes: ["7-8", "9-10", "11-12", "13-14"],
+        date: 1716634345448,
+        bestseller: true
+    },
+    {
+        _id: "205",
+        name: "Seamless Leggings",
+        description: "Seamless Leggings",
+        price: 70,
+        image: [img_girlF1, img_girlF2, img_girlF3],
+        category: "Girl",
+        subCategory: "Pants",
+        sizes: ["1-2", "2-3", "3-4", "4-5", "5-6", "6-7"],
+        date: 1716634345448,
+        bestseller: false
+    },
     {
         id: "100",
         name: "Textured Golfer and Shorts Set",
@@ -210,7 +308,7 @@ export const products = [
         subCategory: "Sets",
         sizes: ["1-2", "2-3", "3-4", "4-5", "5-6", "6-7"],
         date: 1716634345448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "101",
@@ -234,7 +332,7 @@ export const products = [
         subCategory: "Sets",
         sizes: ["1-2", "2-3", "3-4", "4-5", "5-6", "6-7"],
         date: 1716634345448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "103",
@@ -270,7 +368,7 @@ export const products = [
         subCategory: "Pants",
         sizes: ["1-2", "2-3", "3-4", "4-5", "5-6", "6-7"],
         date: 1716634345448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "106",
@@ -294,7 +392,7 @@ export const products = [
         subCategory: "Sets",
         sizes: ["7-8", "9-10", "11-12", "13-14"],
         date: 1716634345448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "108",
@@ -330,7 +428,7 @@ export const products = [
         subCategory: "Tops",
         sizes: ["7-8", "9-10", "11-12", "13-14"],
         date: 1716634345448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "111",
@@ -354,7 +452,7 @@ export const products = [
         subCategory: "Tops",
         sizes: ["7-8", "9-10", "11-12", "13-14"],
         date: 1716634345448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "113",
@@ -402,7 +500,7 @@ export const products = [
         subCategory: "Sets",
         sizes: ["7-8", "9-10", "11-12", "13-14"],
         date: 1716634345448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "201",
@@ -426,7 +524,7 @@ export const products = [
         subCategory: "Tops",
         sizes: ["7-8", "9-10", "11-12", "13-14"],
         date: 1716634345448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "203",
@@ -437,30 +535,6 @@ export const products = [
         category: "Girl",
         subCategory: "Tops",
         sizes: ["7-8", "9-10", "11-12", "13-14"],
-        date: 1716634345448,
-        bestseller: true
-    },
-    {
-        _id: "204",
-        name: "Floral Midi Skirt",
-        description: "Floral Midi Skirt",
-        price: 100,
-        image: [img_girlE1, img_girlE2, img_girlE3],
-        category: "Girl",
-        subCategory: "Skirts",
-        sizes: ["7-8", "9-10", "11-12", "13-14"],
-        date: 1716634345448,
-        bestseller: true
-    },
-    {
-        _id: "205",
-        name: "Seamless Leggings",
-        description: "Seamless Leggings",
-        price: 70,
-        image: [img_girlF1, img_girlF2, img_girlF3],
-        category: "Girl",
-        subCategory: "Pants",
-        sizes: ["1-2", "2-3", "3-4", "4-5", "5-6", "6-7"],
         date: 1716634345448,
         bestseller: true
     },
@@ -498,7 +572,7 @@ export const products = [
         subCategory: "Sets",
         sizes: ["1-2", "2-3", "3-4", "4-5", "5-6", "6-7"],
         date: 1716634345448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "300",
@@ -506,30 +580,6 @@ export const products = [
         description: "Graphic T-Shirt",
         price: 120,
         image: [img_manA1, img_manA2, img_manA3],
-        category: "Man",
-        subCategory: "Tops",
-        sizes: ["Small", "Medium", "Large"],
-        date: 1716634345448,
-        bestseller: true
-    },
-    {
-        _id: "301",
-        name: "Statement T-Shirt",
-        description: "Statement T-Shirt",
-        price: 120,
-        image: [img_manB1, img_manB2, img_manB3],
-        category: "Man",
-        subCategory: "Tops",
-        sizes: ["Small", "Medium", "Large"],
-        date: 1716634345448,
-        bestseller: true
-    },
-    {
-        _id: "302",
-        name: "Stadium T-Shirt",
-        description: "Stadium T-Shirt",
-        price: 160,
-        image: [img_manC1, img_manC2, img_manC3],
         category: "Man",
         subCategory: "Tops",
         sizes: ["Small", "Medium", "Large"],
@@ -558,7 +608,7 @@ export const products = [
         subCategory: "Tops",
         sizes: ["Small", "Medium", "Large"],
         date: 1716634345448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "305",
@@ -582,7 +632,7 @@ export const products = [
         subCategory: "Tops",
         sizes: ["Small", "Medium", "Large"],
         date: 1716634345448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "307",
@@ -618,7 +668,7 @@ export const products = [
         subCategory: "Tops",
         sizes: ["Small", "Medium", "Large"],
         date: 1716634345448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "310",
@@ -777,54 +827,6 @@ export const products = [
         bestseller: true
     },
     {
-        _id: "402",
-        name: "Mesh Bodycon Dress",
-        description: "Mesh Bodycon Dress",
-        price: 160,
-        image: [img_womanC1, img_womanC2, img_womanC3],
-        category: "Woman",
-        subCategory: "Dresses",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716634345448,
-        bestseller: true
-    },
-    {
-        _id: "403",
-        name: "Fit and Flare Dress",
-        description: "Fit and Flare Dress",
-        price: 190,
-        image: [img_womanD1, img_womanD2, img_womanD3],
-        category: "Woman",
-        subCategory: "Dresses",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716634345448,
-        bestseller: true
-    },
-    {
-        _id: "404",
-        name: "Fit and Flare Dress",
-        description: "Fit and Flare Dress",
-        price: 200,
-        image: [img_womanE1, img_womanE2, img_womanE3],
-        category: "Woman",
-        subCategory: "Dresses",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716634345448,
-        bestseller: true
-    },
-    {
-        _id: "405",
-        name: "Boxy Shirt and Short",
-        description: "Boxy Shirt and Short",
-        price: 300,
-        image: [img_womanF1, img_womanF2, img_womanF3],
-        category: "Woman",
-        subCategory: "Sets",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716634345448,
-        bestseller: true
-    },
-    {
         _id: "406",
         name: "Boxy Top and Runner Short",
         description: "Boxy Top and Runner Short",
@@ -834,7 +836,7 @@ export const products = [
         subCategory: "Sets",
         sizes: ["S", "M", "L", "XL"],
         date: 1716634345448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "407",
