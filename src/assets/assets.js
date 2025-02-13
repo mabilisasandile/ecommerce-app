@@ -158,7 +158,6 @@ import img_womanH3 from './img_womanH3.jpg'
 import img_womanI1 from './img_womanI1.jpg'
 import img_womanI2 from './img_womanI2.jpg'
 import img_womanI3 from './img_womanI3.jpg'
-import logo from './logo.jpg'
 import logo2 from './logo2.jpg'
 import profile_icon from './profile_icon.jpg'
 import search_icon from './search_icon.jpg'
@@ -181,7 +180,6 @@ import exchange_icon from './exchange_icon.png'
 
 
 export const assets = {
-    logo,
     logo2,
     cart__icon,
     quality_icon,
