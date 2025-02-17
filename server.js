@@ -16,7 +16,8 @@ connectCloudinary();
 
 // Middlewares
 app.use(express.json());
-app.use(cors({ origin: ["http://localhost:5173", "http://localhost:5174"] }));
+app.use(cors())
+// app.use(cors({ origin: ["http://localhost:5173", "http://localhost:5174"] }));
 
 // api endpoints
 app.use("/api/user", userRouter);
