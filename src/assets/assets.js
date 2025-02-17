@@ -174,7 +174,6 @@ import contact_img from './contact_img.jpg'
 import cross_icon from './cross_icon.png'
 import stripe_logo from './stripe_logo.png'
 import paypal_logo from './paypal_logo.png'
-import razorpay_icon from './razorpay.png'
 import dropdown_icon from './dropdown_icon.png'
 import hero_img from './hero_img.jpeg'
 import exchange_icon from './exchange_icon.png'
@@ -193,7 +192,6 @@ export const assets = {
     cross_icon,
     stripe_logo,
     paypal_logo,
-    razorpay_icon,
     menu_icon,
     about_img,
     contact_img,

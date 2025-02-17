@@ -1,6 +1,8 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import { ShopContext } from '../context/ShopContext';
 import Title from '../components/Title';
+import axios from 'axios';
+
 
 const Orders = () => {
 
@@ -59,7 +61,7 @@ const Orders = () => {
                     <p>Size: {item.size}</p>
                   </div>
                   <p className='mt-1'>Date: <span className='text-gray-400'>{new Date(item.date).toDateString()}</span></p>
-                  <p className='mt-1'>Date: <span className='text-gray-400'>{item.paymentMethod}</span></p>
+                  <p className='mt-1'>Payment Method: <span className='text-gray-400'>{item.paymentMethod}</span></p>
                 </div>
               </div>
               <div className='md:w-1/2 flex justify-between'>
